@@ -1,0 +1,25 @@
+[Project ID]
+Signature=UE Proj: v.1
+Unicode=2
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+Include Sub Directories=1
+Project TagfileU=
+Project WordfileU=
+Project TpFileU=
+FilterU=
+Create Tagfile=0
+[FilesU]
+0=..+AFw-UserSource+AFw-
+1=..+AFw-UserInclude+AFw-
+2=..+AFw-common+AFw-source+AFw-
+3=..+AFw-common+AFw-include+AFw-
+4=..+AFw-headers+AFw-include+AFw-
+5=..+AFw-headers+AFw-source+AFw-
+6=..+AFw-IQmath+AFw-c28+AFw-include+AFw-
+7=..+AFw-SFRA+AFw-IQ+AFw-include+AFw-
+8=..+AFw-solar+AFw-v1.2+AFw-IQ+AFw-source+AFw-
+9=..+AFw-solar+AFw-v1.2+AFw-IQ+AFw-include+AFw-
+10=..+AFw-SGEN+AFw-source+AFw-C28x+AF8-SGEN+AF8-LIB+AFw-
+11=..+AFw-SGEN+AFw-include+AFw-

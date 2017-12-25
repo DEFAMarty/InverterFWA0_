@@ -1,0 +1,131 @@
+---- int16 Matches (134 in 22 files) ----
+{anonDLOG_1CH_IQ} in DLOG_1CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *input_ptr;
+{anonDLOG_1CH_IQ} in DLOG_1CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *output_ptr;
+{anonDLOG_1CH_IQ} in DLOG_1CH_IQ.h (solar\v1.2\IQ\include) : 	int16 status;
+{anonDLOG_1CH_IQ} in DLOG_1CH_IQ.h (solar\v1.2\IQ\include) : 	int16 pre_scalar;
+{anonDLOG_1CH_IQ} in DLOG_1CH_IQ.h (solar\v1.2\IQ\include) : 	int16 skip_count;
+{anonDLOG_1CH_IQ} in DLOG_1CH_IQ.h (solar\v1.2\IQ\include) : 	int16 size;
+{anonDLOG_1CH_IQ} in DLOG_1CH_IQ.h (solar\v1.2\IQ\include) : 	int16 count;
+DLOG_4CH_IQ_FUNC in DLOG_4CH_IQ.c (solar\v1.2\IQ\source) : 		if((int16)*v->input_ptr1>v->trig_value && v->prev_value<v->trig_value)
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *input_ptr1;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *input_ptr2;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *input_ptr3;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *input_ptr4;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *output_ptr1;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *output_ptr2;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *output_ptr3;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 *output_ptr4;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 prev_value;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 trig_value;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 status;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 pre_scalar;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 skip_count;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 size;
+{anonDLOG_4CH_IQ} in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 	int16 count;
+DLOG_4CH_IQ_MACRO in DLOG_4CH_IQ.h (solar\v1.2\IQ\include) : 		if((int16)*v.input_ptr1>v.trig_value && v.prev_value<v.trig_value)	\
+ADCOFFTRIM_BITS in DSP2803x_Adc.h (headers\include) :     int16   OFFTRIM:9;        // 8:0    Offset Trim
+DSP2803x_Cla_typedefs.h (common\include) line 25 : typedef short           int16;
+DSP2803x_Device.h (headers\include) line 101 : typedef int             int16;
+DSP2803x_GlobalPrototypes.h (common\include) line 110 : extern int16 GetTemperatureC(int16 sensorSample); // returns temp in deg. C
+DSP2803x_GlobalPrototypes.h (common\include) line 111 : extern int16 GetTemperatureK(int16 sensorSample); // returns temp in deg. K
+DSP2803x_GlobalPrototypes.h (common\include) line 112 : extern void Osc1Comp(int16 sensorSample);
+DSP2803x_GlobalPrototypes.h (common\include) line 113 : extern void Osc2Comp(int16 sensorSample);
+DSP2803x_OscComp.c (common\source) line 48 :   #define getOsc1FineTrimSlope() (*(int16 (*)(void))0x3D7E90)()
+DSP2803x_OscComp.c (common\source) line 50 :   #define getOsc1FineTrimOffset() (*(int16 (*)(void))0x3D7E93)()
+DSP2803x_OscComp.c (common\source) line 52 :   #define getOsc1CoarseTrim() (*(int16 (*)(void))0x3D7E96)()
+DSP2803x_OscComp.c (common\source) line 56 :   #define getOsc2FineTrimSlope() (*(int16 (*)(void))0x3D7E99)()
+DSP2803x_OscComp.c (common\source) line 58 :   #define getOsc2FineTrimOffset() (*(int16 (*)(void))0x3D7E9C)()
+DSP2803x_OscComp.c (common\source) line 60 :   #define getOsc2CoarseTrim() (*(int16 (*)(void))0x3D7E9F)()
+DSP2803x_OscComp.c (common\source) line 63 :   #define getRefTempOffset() (*(int16 (*)(void))0x3D7EA2)()
+DSP2803x_OscComp.c (common\source) line 71 : void Osc1Comp (int16 sensorSample)
+Osc1Comp in DSP2803x_OscComp.c (common\source) :     int16 compOscFineTrim;
+DSP2803x_OscComp.c (common\source) line 90 : void Osc2Comp (int16 sensorSample)
+Osc2Comp in DSP2803x_OscComp.c (common\source) :     int16 compOscFineTrim;
+InitPieVectTable in DSP2803x_PieVect.c (common\source) : 	int16	i;
+DSP2803x_TempSensorConv.c (common\source) line 51 : int16 GetTemperatureC(int16 sensorSample)
+DSP2803x_TempSensorConv.c (common\source) line 58 : int16 GetTemperatureK(int16 sensorSample)
+F2803XADCRead in F2803XAdcProcess.c (UserSource) : 	int16 ctr;
+SetOffset in F2803XAdcProcess.c (UserSource) : 	int16 i;
+SetOffset in F2803XAdcProcess.c (UserSource) : 	int16 Temp;
+CalACValue in F2803XAdcProcess.c (UserSource) : 	int16 Temp;
+CalACNoFilterValue in F2803XAdcProcess.c (UserSource) : 	int16 Temp;
+SpiManage in F2803XSpiProcess.c (UserSource) : 	int16 i = 0;
+SpiManage in F2803XSpiProcess.c (UserSource) : 	int16 OutPutData;
+F2803XSpiProcess.c (UserSource) line 105 : int16 DataCalcForSpi(Uint16 DataIndex, Uint16 Gain)
+DataCalcForSpi in F2803XSpiProcess.c (UserSource) : 				Temp = (int16)_IQtoIQ11(invVoRefInst);	//invDutyPU
+DataCalcForSpi in F2803XSpiProcess.c (UserSource) : 				Temp = (int16)_IQtoIQ11(invIiInst);
+DataCalcForSpi in F2803XSpiProcess.c (UserSource) : 				Temp = (int16)_IQtoIQ11(cntl2p2z_PRV_vars.Ref);
+DataCalcForSpi in F2803XSpiProcess.c (UserSource) : 				  Temp = (int16)_IQtoIQ11(cntl2p2z_PRV_vars.Fdbk);
+DataCalcForSpi in F2803XSpiProcess.c (UserSource) : 				  Temp = (int16)_IQtoIQ11(cntl2p2z_LeadLag_vars.Ref);
+DataCalcForSpi in F2803XSpiProcess.c (UserSource) : 				  Temp = (int16)_IQtoIQ11(cntl2p2z_LeadLag_vars.Fdbk);
+F2803XSpiProcess.h (UserInclude) line 25 : int16 DataCalcForSpi(Uint16 DataIndex, Uint16 Gain);
+F2803XT0Process.c (UserSource) line 50 : int16 CANTaskCount = 0;
+F2803XT0Process.c (UserSource) line 51 : int16 VBusTaskCount = 0;
+F2803XT0Process.c (UserSource) line 52 : int16 HeatSinkTempTaskCount = 0;
+F2803XT0Process.c (UserSource) line 53 : int16 StateTaskCount = 0;
+F2803XT0Process.c (UserSource) line 54 : int16 SystemManageTaskCount = 0;
+F2803XT0Process.c (UserSource) line 55 : int16 FaultManageTaskCount = 0;
+F2803XT0Process.c (UserSource) line 56 : int16 IOManageTaskCount = 0;
+F2803XT0Process.c (UserSource) line 57 : int16 SpiManageTaskCount = 10;
+F2803XT0Process.c (UserSource) line 58 : int16 SciManageTaskCount = 10;
+F2803XT0Process.c (UserSource) line 59 : int16 ReadI2CTaskCount = I2C_READ_TASK_COUNT_VALUE0;
+F2803XT0Process.c (UserSource) line 171 : int16 GetCANTaskCount(void)
+F2803XT0Process.c (UserSource) line 176 : int16 GetVBusTaskCount(void)
+F2803XT0Process.c (UserSource) line 181 : int16 GetHeatSinkTempTaskCount(void)
+F2803XT0Process.c (UserSource) line 186 : int16 GetSystemManageTaskCount(void)
+F2803XT0Process.c (UserSource) line 191 : int16 GetFaultManageTaskCount(void)
+F2803XT0Process.c (UserSource) line 196 : int16 GetIOManageTaskCount(void)
+F2803XT0Process.c (UserSource) line 201 : int16 GetSpiManageTaskCount(void)
+F2803XT0Process.c (UserSource) line 206 : int16 GetSciManageTaskCount(void)
+F2803XT0Process.c (UserSource) line 211 : int16 GetReadI2CTaskCount(void)
+F2803XT0Process.h (UserInclude) line 30 : int16 GetCANTaskCount(void);
+F2803XT0Process.h (UserInclude) line 31 : int16 GetVBusTaskCount(void);
+F2803XT0Process.h (UserInclude) line 32 : int16 GetHeatSinkTempTaskCount(void);
+F2803XT0Process.h (UserInclude) line 33 : int16 GetFaultTaskCount(void);
+F2803XT0Process.h (UserInclude) line 34 : int16 GetTestTaskCount(void);
+F2803XT0Process.h (UserInclude) line 35 : int16 GetSystemManageTaskCount(void);
+F2803XT0Process.h (UserInclude) line 36 : int16 GetFaultManageTaskCount(void);
+F2803XT0Process.h (UserInclude) line 37 : int16 GetIOManageTaskCount(void);
+F2803XT0Process.h (UserInclude) line 38 : int16 GetSpiManageTaskCount(void);
+F2803XT0Process.h (UserInclude) line 39 : int16 GetSciManageTaskCount(void);
+F2803XT0Process.h (UserInclude) line 40 : int16 GetReadI2CTaskCount(void);
+GlobalVariable.c (UserSource) line 78 : int16 offsetCalCounter;
+GlobalVariable.c (UserSource) line 90 : int16 closeILoopInv,closeVLoopInv, clearInvTrip, rlyConnect;
+GlobalVariable.c (UserSource) line 94 : int16 zeroCrossDetectFlag;
+GlobalVariable.c (UserSource) line 96 : int16 ClearInvTrip;
+GlobalVariable.c (UserSource) line 100 : int16 gi16_CarrierPeriod = 1500;
+GlobalVariable.h (UserInclude) line 85 : extern int16 closeILoopInv,closeVLoopInv, clearInvTrip, rlyConnect;
+GlobalVariable.h (UserInclude) line 89 : extern int16 zeroCrossDetectFlag;
+GlobalVariable.h (UserInclude) line 91 : extern int16 ClearInvTrip;
+GlobalVariable.h (UserInclude) line 93 : extern volatile int16 tempChange;
+GlobalVariable.h (UserInclude) line 94 : extern volatile int16 period;
+GlobalVariable.h (UserInclude) line 97 : extern int16 gi16_CarrierPeriod;
+{anonMPPT_INCC_IQ} in MPPT_INCC_IQ.h (solar\v1.2\IQ\include) : 	int16 mppt_enable;
+{anonMPPT_INCC_IQ} in MPPT_INCC_IQ.h (solar\v1.2\IQ\include) : 	int16 mppt_first;
+{anonMPPT_INCC_I_IQ} in MPPT_INCC_I_IQ.h (solar\v1.2\IQ\include) : 	int16 mppt_enable;
+{anonMPPT_INCC_I_IQ} in MPPT_INCC_I_IQ.h (solar\v1.2\IQ\include) : 	int16 mppt_first;
+{anonMPPT_PNO_IQ} in MPPT_PNO_IQ.h (solar\v1.2\IQ\include) : 	int16 mppt_enable;
+{anonMPPT_PNO_IQ} in MPPT_PNO_IQ.h (solar\v1.2\IQ\include) : 	int16 mppt_first;
+Solar_IQ.h (solar\v1.2\IQ\include) line 6 : typedef int             	int16;
+voltagesourceinvlcfltr.c (UserSource) line 67 : int16	SerialCommsTimer;
+voltagesourceinvlcfltr.c (UserSource) line 68 : int16	CommsOKflg;
+voltagesourceinvlcfltr.c (UserSource) line 70 : int16 initializationFlag;
+voltagesourceinvlcfltr.c (UserSource) line 79 : int16 *varSetTxtList[16]; //16 textbox controlled variables
+voltagesourceinvlcfltr.c (UserSource) line 80 : int16 *varSetBtnList[16]; //16 button controlled variables
+voltagesourceinvlcfltr.c (UserSource) line 81 : int16 *varSetSldrList[16]; //16 slider controlled variables
+voltagesourceinvlcfltr.c (UserSource) line 82 : int16 *varGetList[16]; //16 variables sendable to GUI
+voltagesourceinvlcfltr.c (UserSource) line 95 : int16 wSumCnt;
+main in voltagesourceinvlcfltr.c (UserSource) : 	varSetBtnList[0] = (int16*)&initializationFlag;
+main in voltagesourceinvlcfltr.c (UserSource) : 	varGetList[0] = (int16*)&(sfra1.Vec_Length);			//int16
+main in voltagesourceinvlcfltr.c (UserSource) : 	varGetList[1] = (int16*)&(sfra1.status);			    //int16
+main in voltagesourceinvlcfltr.c (UserSource) : 	varGetList[2] = (int16*)&(sfra1.FreqIndex);				//int16
+voltagesourceinvlcfltr.c (UserSource) line 694 : int16    sRMSCal(long dwSum,long dwRatio,int wFormat)
+sRMSCal in voltagesourceinvlcfltr.c (UserSource) : 	int16 wTemp;
+sRMSCal in voltagesourceinvlcfltr.c (UserSource) : 	wTemp = (int16)((long)dwTemp*wFormat>>7);
+voltagesourceinvlcfltr.c (UserSource) line 712 :  int16   sAverageVoltCal(long dwSum,long dwRatio,int wFormat)
+sAverageVoltCal in voltagesourceinvlcfltr.c (UserSource) : 	int16 wTemp;
+sAverageVoltCal in voltagesourceinvlcfltr.c (UserSource) : 	wTemp = (int16)((long)dwTemp*wFormat>>7);
+voltagesourceinvlcfltr.c (UserSource) line 729 :  int16   sActivePowerCal(long dwSum,long dwRatio,int wFormat)
+sActivePowerCal in voltagesourceinvlcfltr.c (UserSource) : 	int16 wTemp;
+sActivePowerCal in voltagesourceinvlcfltr.c (UserSource) : 	wTemp = (int16)((long)dwTemp*wFormat>>7);
+setupSFRA in voltagesourceinvlcfltr.c (UserSource) : 	int16 i;

@@ -1,0 +1,4 @@
+---- F2803XDRIVEInit Matches (3 in 2 files) ----
+F2803XGpioProcess.c (R:\08 - R&D\12 - Marty Ma\Firmware\InverterFWA0\UserSource) line 35 : void F2803XDRIVEInit(DRIVEptr p)
+F2803XGpioProcess.h (R:\08 - R&D\12 - Marty Ma\Firmware\InverterFWA0\UserInclude) line 57 :                        	   	    (void (*)(Uint32))F2803XDRIVEInit,  \
+F2803XGpioProcess.h (R:\08 - R&D\12 - Marty Ma\Firmware\InverterFWA0\UserInclude) line 63 : void F2803XDRIVEInit(DRIVEptr p);
